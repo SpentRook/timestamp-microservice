@@ -1,0 +1,32 @@
+{
+  "name": "timestamp-microservice",
+  "version": "1.0.0",
+  "description": "Project solution to get Back End Development and APIs certification from FreeCodeCamp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "start:dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpentRook/timestamp-microservice.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "ExpressJS"
+  ],
+  "author": "Richard Guevara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpentRook/timestamp-microservice/issues"
+  },
+  "homepage": "https://github.com/SpentRook/timestamp-microservice#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
